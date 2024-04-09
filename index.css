@@ -1,0 +1,96 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 375px;
+    font-family: "Source Sans 3", sans-serif;
+    background-color: #EDEDED;
+}
+
+/* header styles */
+header {
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #C6C6C6;
+    border-width: 0 0 1px 0;
+    padding: 5px;
+}
+
+/* Typography */
+h2, h3, p {
+    margin: 0;
+}
+
+.post-bold {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.post-medium {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/* image stayles */
+.header-image {
+    width: 127px;
+}
+
+.avatar-image {
+    width: 36px;
+    border-radius: 50px;
+}
+
+.post-avatar {
+    padding: 10px;
+}
+
+.post-image {
+    width: 375px;
+    height: 375px;
+}
+
+.post-heart,
+.post-comment,
+.post-dm {
+    width: 24px;
+}
+
+.post-heart:hover {
+    cursor: pointer;
+}
+/* main content styles */
+.main-style{
+    background-color: #EDEDED;
+}
+
+.section-style {
+    background-color: #ffffff;
+    width: 375px;
+    height: 545px;
+    margin-bottom: 15px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.post-body {
+    padding: 10px 10px 15px 10px;
+}
+
+.post-activity {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.post-likescount {
+    margin: 10px 0px;
+}
